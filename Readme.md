@@ -1,3 +1,6 @@
+**Should have used MobX.**
+React does not rerender for updates on class properties. yikes
+
 Roadmap
 
 - [x] Modeling

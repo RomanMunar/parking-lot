@@ -24,8 +24,6 @@ export default function Web() {
         <h2 className="text-sm">Total Fee Collected</h2>
         <p className="text-right text-xs font-semibold">₱ {feeCollected}</p>
       </div>
-      {/* {entryPoints.map(([x, y]) => (  <div    style={{      top: `${y ? (y - 1) * 40 + (y - 1) * 12 : 0}px`,      left: `${x ? (x - 1) * 40 + (x - 1) * 12 : 0}px`,    }}    className="absolute h-10 w-2 bg-yellow-300"  ></div>))} */}
-      {/* <button type="button" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Warrior</button> */}
     </main>
   );
 }
